@@ -2,6 +2,7 @@
 title: "burrito breakdown"
 layout: project
 categories: writing design multimedia video social research
+thumbnail: "/assets/thumbnails/burritobreakdown.png"
 ---
 
 

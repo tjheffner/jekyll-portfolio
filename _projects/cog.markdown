@@ -2,6 +2,8 @@
 title: "cog for google glass"
 layout: project
 categories: writing sound design strategy
+thumbnail: "/assets/thumbnails/cog.png"
+
 ---
 
 

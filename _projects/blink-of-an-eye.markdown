@@ -2,6 +2,8 @@
 title: "in the blink of an eye"
 categories: design, development, illustration
 layout: project
+thumbnail: "/assets/thumbnails/blinkofaneye.png"
+
 ---
 
 

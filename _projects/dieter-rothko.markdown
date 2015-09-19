@@ -2,13 +2,14 @@
 title: "dieter rothko"
 layout: project
 categories: concept design paint print
+thumbnail: "/assets/thumbnails/dieterrothko.png"
 ---
-<b>Challenge:</b> Create a 10-page artist's book utilizing found text as a major component.
+**Challenge**: Create a 10-page artist's book utilizing found text as a major component.
 
-<a href="http://en.wikipedia.org/wiki/Dieter_Roth" target="_blank">Dieter Roth</a>. <a href="http://en.wikipedia.org/wiki/Mark_Rothko" target="_blank">Mark Rothko</a>. A match made in mash-up heaven.
+[Dieter Roth.](http://en.wikipedia.org/wiki/Dieter_Roth){:target="_blank"} [Mark Rothko.](http://en.wikipedia.org/wiki/Mark_Rothko){:target="_blank"} A match made in mash-up heaven.
 
-<i>124 pages, acrylic on newspaper, bound in cardstock
-approx. 3.25'' x 3.25'' x 0.4'' </i>
+_124 pages, acrylic on newspaper, bound in cardstock
+approx. 3.25'' x 3.25'' x 0.4''_
 
 {image 4}
 {image 5}
