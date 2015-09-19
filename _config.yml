@@ -4,7 +4,7 @@ occupation: developer / designer
 email: tannerjheffner@gmail.com
 description: > # personal portfolio for tanner heffner. design, development, illustration, writing
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tannerheffner.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: its_tanner
 github_username:  tjheffner
 linkedin_username: tannerheffner
@@ -16,3 +16,13 @@ collections:
   projects:
     layout: project
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "project"
+      author: "Tanner Heffner"
+      baseurl: "/blog/"
