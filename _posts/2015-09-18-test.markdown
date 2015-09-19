@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Site-building with Jekyll, a static site generator"
+date:   2015-09-18 20:09:30
+categories: jekyll blog update
+---
+
+I'm building a new personal website for myself. At the very least, I want it to serve as a portfolio and a blog.
+
+I really liked [my old portfolio](http://www.cargocollective.com/tannerheffner) built with cargocollective, but as I dive deeper into development, I find it presents me with some serious drawbacks. Cargocollective (and other commercial site generators like squarespace or wix) have tons of upside for complete beginners-- they're very little fuss, come with tons of pre-built themes, and professional looking. The downside is they're not very customizable outside of some minor CSS tweaks here and there. You can't add any outside libraries or embed things (outside of social media widgets or youtube videos).
+
+That's a huge inconvenience considering a large portion of my projects involve some form of user-interaction in a digital space. Example videos can try to bridge the gap, but it's just not the same as actually clicking through something yourself. There's very little incentive for someone to download a project and take the time to get it running on their own machine, but it's impossible to embed javascript or processing projects into a commercial portfolio website, for obvious security reasons.
+
+That (understandable) lack of support has led me to try and rebuild a facsimile of my cargocollective setup several times, with several different tools. My [github](http://https://github.com/tjheffner) is littered with attempts, both serious and trivial, to reinvent the wheel. I've tried remaking my portfolio as vanilla as possible, on the cutting-edge using AngularJS, with tumblr, Drupal, Wordpress, and Pattern Lab. All had aspects I liked and didn't, but none seemed worth the time investment to actually flesh out the whole thing once I had learned what I wanted to learn from the tool. Cargocollective won out as the fallback every time, even with its lack of support for essentially my entire last year's worth of work. It was already up and running, and not really broken, so why fix it?
+
+As my current internship draws to a close, I realize how necessary it is for me to fix it. Currently, I'm showcasing almost none of the skills I've learned in the past year. Who is going to hire a developer based on a portfolio with no working code? That thought has jolted me into spending the next week(s) building something for myself that will last. Lord knows I won't want to go through this process again in a year.
+
+All of that was an incredibly long-winded way of saying, I think [Jekyll](http://jekyllrb.com) will be the tool that finally dethrones cargocollective for me. It seems fairly simple after playing around for a few hours, incredibly easy to maintain (once the general structure is built (which has been a breeze so far, considering it already generates a wonderful blog system for you)), while still being incredibly powerful with tons of customization, thanks to its templating. It reminds me of Pattern Lab in a lot of ways, which is also a very powerful tool I fully recommend using, but it is a bit overkill for my purposes.
+
+Anyways, this is really just a test blog for me to make sure it's working without breaking my projects. I'll put up another post soon with details on how and why I structured my site the way I did.
