@@ -11,3 +11,8 @@ linkedin_username: tannerheffner
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects:
+    layout: project
+    output: true

@@ -4,12 +4,12 @@ layout: homepage
 
 <div class="home">
 
-  <ul class="project-list">
-    {% for posts in site.posts %}
+  <ul class="post-list">
+    {% for project in site.projects %}
       <li>
 
         <h2>
-          <a class="project-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
         </h2>
 
       </li>
