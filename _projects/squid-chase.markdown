@@ -8,7 +8,7 @@ thumbnail: "/assets/thumbnails/squidchase.png"
 This is a simple, yet suprisingly frustrating, browser-based game built using the p5.js library.
 Squid Chase was built with the help of Tom Mertz and Connor Abdelnoor, two other students in my Epicodus class.
 
-Play it <a href="{{ site.url }}/squidchase">here!</a>
+<a href="{{ site.url }}/squidchase" target="_blank">Play it here!</a>
 
 
 _p.s. you get double points for tracking the squid's eye_
