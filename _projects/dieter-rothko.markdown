@@ -10,8 +10,3 @@ thumbnail: "/assets/thumbnails/dieterrothko.png"
 
 _124 pages, acrylic on newspaper, bound in cardstock
 approx. 3.25'' x 3.25'' x 0.4''_
-
-{image 4}
-{image 5}
-
-{image 1}{image 2}{image 3}

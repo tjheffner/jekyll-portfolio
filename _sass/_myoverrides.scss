@@ -1,0 +1,33 @@
+.home {
+  ul, ol {
+    margin-left: 0;
+  }
+}
+
+.project-list {
+  list-style-type: none;
+  max-width: 900px;
+}
+
+.project-links {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  float: left;
+}
+
+.logo {
+  height: 100px;
+  width: 107px;
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-col-1 {
+  float: left;
+}
+
+.social-media-list,
+.contact-list,
+.site-list {
+  margin-top: 12px;
+}

@@ -101,6 +101,7 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+.site-list,
 .contact-list,
 .social-media-list {
     list-style: none;
@@ -172,10 +173,7 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+    display: inline-block;
 }
 
 .post-meta {
