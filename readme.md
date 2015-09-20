@@ -1,4 +1,6 @@
-Personal website/portfolio/blog built using the [Jekyll static-site generator](http://jekyllrb.com)
+Personal website/portfolio/blog built using the [Jekyll static-site generator](http://jekyllrb.com).
+
+See it live at: tjheffner.github.io
 
 From the main directory:
 
@@ -11,7 +13,7 @@ Visit localhost:4000 in your browser.
 *** TO DO ***
 - reorder projects on homepage
 - slideshow / side scroll functionality for double scribble
-- add rock paper scissors project
+- add rock paper scissors project [php having issues with jekyll]
 - cajon project?
 - epifoodus, but not until i make the changes i want
   -- possible reboot/refactoring
