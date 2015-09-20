@@ -9,7 +9,7 @@ thumbnail: "/assets/thumbnails/blinkofaneye.png"
 
 **Challenge:** How do you design an interactive visualization that captivates from one data point to over two billion?
 
-I graduated summer 2014. It felt like my college experience went by in the blink of an eye.
+I graduated in the summer of 2014. It felt like my college experience went by in the blink of an eye.
 
 How long is a blink? _(330 milliseconds)_
 

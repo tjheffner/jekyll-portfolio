@@ -5,8 +5,8 @@ See it live at: www.tannerheffner.com
 Or, clone the repository.
 From the main directory:
 
-jekyll build -w
-jekyll serve
+`$ jekyll build -w`
+`$ jekyll serve`
 
 Visit localhost:4000 in your browser.
 

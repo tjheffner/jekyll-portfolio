@@ -1,6 +1,6 @@
 # Site settings
 title: tanner heffner
-occupation: developer / designer
+occupation: developer + designer
 email: tannerjheffner@gmail.com
 description: > # personal portfolio for tanner heffner. design, development, illustration, writing
 baseurl: "" # the subpath of your site, e.g. /blog/
