@@ -1,6 +1,6 @@
 ---
 layout: project
-title: posts
+title: all posts
 permalink: /blog/
 ---
 
