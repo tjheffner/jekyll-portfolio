@@ -1,0 +1,68 @@
+<html>
+  <head>
+  <title>Assessment 5: Triangles</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+        <h2>Triangle Determinator</h2>
+
+        <form id="input">
+          <div class="form-group">
+            <label for="side1">Enter the length of side 1:</label>
+            <input type="number" name="side1" id="side1" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="side2">Enter the length of side 2:</label>
+            <input type="number" name="side2" id="side2" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="side3">Enter the length of side 3:</label>
+            <input type="number" name="side3" id="side3" class="form-control">
+          </div>
+
+          <button type="submit" class="btn btn-info">Determinate</button>
+        </form>
+
+        <div id="result">
+          <h3>The type of triangle you input is: <span id="type" class="text-info"></span></h3>
+        </div>
+
+        <div id="picture">
+            <svg height="300" width="400">
+                <polygon style="fill:lime;stroke:purple;stroke-width:1" />
+            </svg>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <h4>Equilateral Triangles</h4>
+                <ul id="equilateral"></ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <h4>Isosceles Triangles</h4>
+                <ul id="isosceles"></ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <h4>Scalene Triangles</h4>
+                <ul id="scalene"></ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <h4>Failed Triangles</h4>
+                <ul id="impossible"></ul>
+            </div>
+        </div>
+
+
+
+    </div>
+  </body>
+</html>
