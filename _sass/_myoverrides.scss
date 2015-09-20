@@ -6,13 +6,16 @@
 
 .project-list {
   list-style-type: none;
-  max-width: 900px;
+  max-width: 950px;
 }
 
 .project-links {
   margin-bottom: 5px;
   margin-right: 5px;
   float: left;
+}
+.project-links:hover {
+  outline: 3px solid yellow;
 }
 
 .logo {
@@ -34,4 +37,8 @@
 
 .project-content {
   line-height: normal;
+}
+
+.post-list {
+  line-height: 1.5;
 }
