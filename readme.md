@@ -1,13 +1,11 @@
-Test sandbox for possible personal portfolio/blog implementation using a static site generator.
+Personal website/portfolio/blog built using the [Jekyll static-site generator](http://jekyllrb.com)
 
-Jekyllrb.com
-
-from the main directory:
+From the main directory:
 
 jekyll build -w
 jekyll serve
 
-go to localhost:4000 in your browser
+Visit localhost:4000 in your browser.
 
 
 *** TO DO ***
