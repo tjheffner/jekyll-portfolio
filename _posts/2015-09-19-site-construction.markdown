@@ -70,7 +70,7 @@ For the projects with code assets, I found if I just moved their whole project f
 
 It was that simple. If your project is built with PHP however, Jekyll can't do anything with it. I found that out the hard way after trying to get a cute little rock paper scissors app to render for the better part of an hour. I don't make the rules. Sorry.
 
-Anyways, the other "big" part in the construction of this website were the slideshows, currently present on [double scribble]({{site.url}}/double-scribble) and [building blocks]({{site.url}}/building-blocks). This is where I used that trick I mentioned earlier, [found here,](http://mattgemmell.com/page-specific-assets-with-jekyll/){:target="_blank"} to load jQuery on these pages only for custom slideshow functionality.
+Anyways, the other "big" part in the construction of this website were the slideshows, currently present on [double scribble]({{site.url}}/double-scribble.html) and [building blocks]({{site.url}}/building-blocks.html). This is where I used that trick I mentioned earlier, [found here,](http://mattgemmell.com/page-specific-assets-with-jekyll/){:target="_blank"} to load jQuery on these pages only for custom slideshow functionality.
 
 To make the blog work, I added a few lines into the `config.yml` (look at lines 20-29 in the picture at the top of this page). Those lines make pages follow the same layout rules as my projects (title only, no navbar header or anything), and sets the page that lists all of them to /blog/ instead of /. The last thing to make that work properly was to create `jekyll/blog.md`
 
