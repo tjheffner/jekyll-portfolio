@@ -76,7 +76,7 @@ A markdown file in the top-level is how you make the third default content type,
 ![](/assets/posts/blogmd.png)
 
 
-One thing I forgot to mention-- these files all mention layout: project, which is a custom layout. It mostly contains wrapper classes around the content. The real hero of my website is the custom layout that the project layout references: `_layouts/homepage.html`. I didn't like how the top of the default layout looked with the title and the nav bar, but I really liked the starting point of the footer, so I made my own layout (called homepage) the exact same as the default, minus the stuff up top. Because everything uses the project layout, everything uses the homepage layout. Hooray for nesting!
+One thing I forgot to mention-- these files all mention layout: project, which is a custom layout. It mostly contains wrapper classes around the content. The real hero of my website is the custom layout that the project layout references: `_layouts/homepage.html`. I didn't like how the top of the default layout looked with the title and the nav bar, but I really liked the starting point of the footer, so I made my own layout (called homepage) the exact same as the default, minus the stuff up top. Because everything uses the project layout, everything uses the homepage layout. Hooray for templates!
 
 And with that said, you have a fully functioning, easily maintainable & updateable website stored right on your computer.
 I followed the guide in the documentation to host mine through github-pages for free and then promptly canceled the webhosting I was using. It's that simple!
