@@ -15,13 +15,14 @@ Content-wise, Jekyll comes included with posts, pages, drafts. Posts and pages a
 
 Jekyll gives you the ability to define your own collections in the `_config.yml` file. be sure to set `output: true` if you want Jekyll to publish the files in your collection folder. Mine is called projects, so the folder is `_projects`.
 
+`jekyll/_config.yml`
 ![](/assets/posts/config.png)
 
 If it isn't set to true, Jekyll won't compile them into the built site. I guess this is a way to define your own drafts as well, but I use `_drafts` for everything currently. You can also make things drafts by not including the Front Matter at the beginning of each file. Sorry I haven't explained what that is either, I said this is a rough walkthrough and the [Jekyll documentation](http://jekyllrb.com){:target="_blank"} is like, right there.
 
 Anyway, so I have my collection built. Time to start adding projects! Each project gets its own markdown file.
 
-    jekyll/_projects/blink-of-an-eye.markdown
+`jekyll/_projects/blink-of-an-eye.markdown`
     ---
     title: "in the blink of an eye"
     categories: design, development, illustration
@@ -63,23 +64,22 @@ You'll notice this file has both markdown and HTML syntax. That's totally valid 
 
 Once I verified this worked relatively properly, I began adding markdown files for other projects that didn't need code assets in the same manner.
 
-Now earlier, remember I said "most" of my stuff was kept in assets? When it came to the projects that needed code assets in order to be fully functional, I found a wonderful trick that I ended up using to make the slideshows functional, but not for this.
-
-For the projects with code assets, I found if I just moved their whole project folders into the top-level `jekyll/project-name`, as long as they had an index.html, the project would render properly, even without the front matter. Then I just included a link in their respective project markdown files like this:
+Remember I said "most" of my stuff was kept in assets? When it came to the projects that needed code assets in order to be fully functional, I found if I just moved their whole project folders into the top-level `jekyll/project-name`, as long as they had an index.html, the project would render properly, even without the front matter. Then I just included a link in their respective project markdown files like this:
 `<a href="{{ site.url }}/project-name" target="_blank">Play it here!</a>`
 
 It was that simple. If your project is built with PHP however, Jekyll can't do anything with it. I found that out the hard way after trying to get a cute little rock paper scissors app to render for the better part of an hour. I don't make the rules. Sorry.
 
-Anyways, the other "big" part in the construction of this website were the slideshows, currently present on [double scribble]({{site.url}}/double-scribble.html) and [building blocks]({{site.url}}/building-blocks.html). This is where I used that trick I mentioned earlier, [found here,](http://mattgemmell.com/page-specific-assets-with-jekyll/){:target="_blank"} to load jQuery on these pages only for custom slideshow functionality.
+Anyways, the other "big" part in the construction of this website were the slideshows, currently present on [double scribble]({{site.url}}/double-scribble.html) and [building blocks]({{site.url}}/building-blocks.html). This is where I used a neat little trick, [found here,](http://mattgemmell.com/page-specific-assets-with-jekyll/){:target="_blank"} to load jQuery on these pages only for custom slideshow functionality.
 
 To make the blog work, I added a few lines into the `config.yml` (look at lines 20-29 in the picture at the top of this page). Those lines make pages follow the same layout rules as my projects (title only, no navbar header or anything), and sets the page that lists all of them to /blog/ instead of /. The last thing to make that work properly was to create `jekyll/blog.md`
 
 A markdown file in the top-level is how you make the third default content type, pages.
 
+`jekyll/blog.md`
 ![](/assets/posts/blogmd.png)
 
 
-One thing I forgot to mention-- these files all mention layout: project, which is a custom layout. It mostly contains wrapper classes around the content. The real hero of my website is the custom layout that project references: homepage. I didn't like how the top of the default layout looked with the title and the nav bar, but I really liked the starting point of the footer, so I made my own layout (called homepage) the exact same as the default, just without the stuff up top. Because everything uses the project layout, everything uses the homepage layout. Hooray for nesting!
+One thing I forgot to mention-- these files all mention layout: project, which is a custom layout. It mostly contains wrapper classes around the content. The real hero of my website is the custom layout that the project layout references: `_layouts/homepage.html`. I didn't like how the top of the default layout looked with the title and the nav bar, but I really liked the starting point of the footer, so I made my own layout (called homepage) the exact same as the default, minus the stuff up top. Because everything uses the project layout, everything uses the homepage layout. Hooray for nesting!
 
 And with that said, you have a fully functioning, easily maintainable & updateable website stored right on your computer.
 I followed the guide in the documentation to host mine through github-pages for free and then promptly canceled the webhosting I was using. It's that simple!
