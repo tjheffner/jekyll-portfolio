@@ -7,7 +7,7 @@ custom_js: slideshow
 ---
 
 For a digital art class, we had to pitch our professor three potential projects, purely using Photoshop.
-My ideal choice was to create some animated sports moments, in the vein of [Pat Ruby](http://patruby.com/animations"){:target="_blank"},
+My ideal choice was to create some animated sports moments, in the vein of [Pat Ruby](http://patruby.com/animations){:target="_blank"},
 but my professor was intrigued by what I meant by "isometric pixel art" and wanted to see an example.
 
 What resulted was some of the University of Oregon's most iconic bricks and blocks, built from the humble pixel.
