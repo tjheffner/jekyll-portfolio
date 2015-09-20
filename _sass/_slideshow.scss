@@ -1,0 +1,55 @@
+/*
+* For the slideshow on the double scribble project
+*/
+
+.slideshow {
+  width:750px;
+  height:750px;
+  position:relative;
+}
+
+.slideshow ul {
+  width:750px;
+  height:750px;
+  list-style:none outside none;
+  position:relative;
+  overflow:hidden;
+}
+
+.slideshow li:first-child{
+  display:list-item;
+  position:absolute;
+}
+
+.slideshow li{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  display:none;
+}
+
+.slideshow .prevButton {
+		height:30px;
+		width:30px;
+		position:absolute;
+    background-color:rgba(192,192,192,0.3);
+    text-align: center;
+    line-height: 2;
+		cursor:pointer;
+		z-index:2000;
+    left: 0;
+    top: 0;
+}
+
+.slideshow .nextButton {
+		height:30px;
+		width:30px;
+		position:absolute;
+    background-color:rgba(192,192,192,0.3);
+    text-align: center;
+    line-height: 2;
+		cursor:pointer;
+		z-index:2000;
+    left: 30;
+    top: 0;
+}
