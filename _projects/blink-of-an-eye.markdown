@@ -23,9 +23,11 @@ Why did they go so fast? _(don't say time flies when you're having fun don't say
 
 
 <iframe width="960" height="540" src="//www.youtube.com/embed/xxruyBiSb3M?rel=0" frameborder="0" allowfullscreen></iframe>
+<br>
 Each trail spawned represents one 'blink,' and new blinks spawn every 330ms.
 
 
-<a href="https://db.tt/mjbmRKK1" target="_blank">[download code]</a>  (Pink Floyd song not included.)
 
+<br>
+Check the code on <a href="https://github.com/tjheffner/blink" target="_blank">github.</a>
 <i>Requires <a href="http://processing.org/" target="_blank">Processing</a> to run.</i>
