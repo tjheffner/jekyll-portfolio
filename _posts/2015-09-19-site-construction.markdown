@@ -16,6 +16,7 @@ Content-wise, Jekyll comes included with posts, pages, drafts. Posts and pages a
 Jekyll gives you the ability to define your own collections in the `_config.yml` file. be sure to set `output: true` if you want Jekyll to publish the files in your collection folder. Mine is called projects, so the folder is `_projects`.
 
 `jekyll/_config.yml`
+
 ![](/assets/posts/config.png)
 
 If it isn't set to true, Jekyll won't compile them into the built site. I guess this is a way to define your own drafts as well, but I use `_drafts` for everything currently. You can also make things drafts by not including the Front Matter at the beginning of each file. Sorry I haven't explained what that is either, I said this is a rough walkthrough and the [Jekyll documentation](http://jekyllrb.com){:target="_blank"} is like, right there.
@@ -23,6 +24,8 @@ If it isn't set to true, Jekyll won't compile them into the built site. I guess 
 Anyway, so I have my collection built. Time to start adding projects! Each project gets its own markdown file.
 
 `jekyll/_projects/blink-of-an-eye.markdown`
+
+
     ---
     title: "in the blink of an eye"
     categories: design, development, illustration
@@ -76,6 +79,7 @@ To make the blog work, I added a few lines into the `config.yml` (look at lines 
 A markdown file in the top-level is how you make the third default content type, pages.
 
 `jekyll/blog.md`
+
 ![](/assets/posts/blogmd.png)
 
 
