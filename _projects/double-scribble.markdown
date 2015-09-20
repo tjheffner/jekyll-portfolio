@@ -20,9 +20,9 @@ Selected digital sketches.
     <li><img src="{{ site.url }}/assets/scribble/joakim.png" /></li>
     <li><img src="{{ site.url }}/assets/scribble/no-days-off.png" /></li>
 
-    <li><img src="{{ site.url }}/assets/scribble/mfdoom.png" /></li>
-    <li><img src="{{ site.url }}/assets/scribble/outkast.png" /></li>
-    <li><img src="{{ site.url }}/assets/scribble/asaprocky.png" /></li>
+    <li><img src="{{ site.url }}/assets/scribble/MFDOOM.png" /></li>
+    <li><img src="{{ site.url }}/assets/scribble/OUTKAST.png" /></li>
+    <li><img src="{{ site.url }}/assets/scribble/ASAPROCKY.png" /></li>
     <li><img src="{{ site.url }}/assets/scribble/pusha-t.png" /></li>
     <li><img src="{{ site.url }}/assets/scribble/mrmfne.png" /></li>
 
