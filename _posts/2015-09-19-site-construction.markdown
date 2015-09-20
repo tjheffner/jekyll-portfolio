@@ -5,7 +5,7 @@ date:   2015-09-19 00:00:00
 categories: jekyll blog update
 ---
 
-When a friend recommended [Jekyll](http://jekyllrb.com){:target="_blank"}, I bookmarked it and forgot about it. But, I skimmed through the documentation absentmindedly a few times and there was more than enough to convince me that Jekyll was worth checking out. Not only is Jekyll basically the perfect/ideal self-hosted blog, due to the simple file structure & local management & the immense synergy with github.... it has the ability to easily create its own collections that worked using the same robust templating structure as the blog workings. Just what I needed!
+When a friend recommended [Jekyll](http://jekyllrb.com){:target="_blank"}, I bookmarked it and forgot about it. But, as I skimmed through the documentation absentmindedly a few times, there was more than enough to convince me that Jekyll was worth checking out. Not only is Jekyll basically the perfect/ideal self-hosted blog, due to the simple file structure, local management, and the immense synergy with github.... it also has the ability to easily create its own collections that work using the same robust template structure as the blog workings. Just what I needed!
 
 Here's a rough walkthrough of how I built my site:
 
