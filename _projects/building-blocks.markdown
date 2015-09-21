@@ -27,5 +27,3 @@ What resulted was some of the University of Oregon's most iconic bricks and bloc
     <li><img src="{{ site.url }}/assets/blocks/9.png" /></li>
   </ul>
 </div>
-
-_the animations will exist, someday_
