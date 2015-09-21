@@ -6,7 +6,7 @@ thumbnail: "/assets/thumbnails/triangle.png"
 ---
 
 At Epicodus, one of our weekly tests was to design a web-app that would return the type of triangle based on three input values.
-Simple enough, but I wanted to actually _see_ the triangle, not just its supposed type. So I wrote a little bit extra. The triangle,
+Simple enough, but I wanted to actually _see_ the triangle, not just its supposed type. The triangle,
 if it exists, is also drawn using jQuery and SVG polygons. Turns out, my 9th-grade math teacher was right--- algebra did come in handy someday.
 
 <br>
