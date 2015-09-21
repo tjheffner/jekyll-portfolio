@@ -17,7 +17,7 @@ Jekyll gives you the ability to define your own collections in the `_config.yml`
 
 ![](/assets/posts/config.png)
 
-If it isn't set to true, Jekyll won't compile them into the built site. I guess this is a way to define your own drafts as well, but I use `_drafts` for everything currently. You can also make things drafts by not including the Front Matter at the beginning of each file. Sorry I haven't explained what that is either, I said this is a rough walkthrough and the [Jekyll documentation](http://jekyllrb.com){:target="_blank"} is like, right there.
+If it isn't set to true, Jekyll won't compile them into the built site. I guess this is a way to define your own drafts as well, but I use `_drafts` for everything currently. You can also make things drafts by not including the Front Matter at the beginning of each file. I'll try and explain rough matter soon, but don't take it from me... the [Jekyll documentation](http://jekyllrb.com){:target="_blank"} is like, right there.
 
 Anyway, so I have my collection built. Time to start adding projects! Each project gets its own markdown file. This one is located at `jekyll/_projects/blink-of-an-eye.markdown`
 
@@ -69,7 +69,7 @@ It was that simple. If your project is built with PHP however, Jekyll can't do a
 
 Anyways, the other "big" part in the construction of this website were the slideshows, currently present on [double scribble]({{site.url}}/projects/double-scribble.html) and [building blocks]({{site.url}}/projects/building-blocks.html). This is where I used a neat little trick, [found here,](http://mattgemmell.com/page-specific-assets-with-jekyll/){:target="_blank"} to load jQuery on these pages only for custom slideshow functionality.
 
-To make the blog work, I added a few lines into the `config.yml` (look at lines 20-29 in the picture at the top of this page). Those lines make pages follow the same layout rules as my projects (title only, no navbar header or anything), and sets the page that lists all of them to /blog/ instead of /. The last thing to make that work properly was to create `jekyll/blog.md`
+To make the blog work, I added a few lines into the `config.yml` (look at lines 20-29 in the picture at the top of this page). Those lines make posts follow the same layout rules as my projects (title only, no navbar header or anything), and sets the page that lists all of them to /blog/ instead of /. The last thing to make that work properly was to create `jekyll/blog.md`
 
 A markdown file in the top-level is how you make the third default content type, pages.
 
