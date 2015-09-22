@@ -43,7 +43,7 @@ _A fourth category, **Atmosphere/Service** was used for tiebreaks, as it is the 
 ![]({{ site.url }}/assets/ingredients.jpg)
 
 <i>Instructional video:</i><br>
-<iframe width="960" height="540" src="//www.youtube.com/embed/xhDeCCvKqhw?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/xhDeCCvKqhw" frameborder="0" allowfullscreen></iframe>
 <br>
 
 
