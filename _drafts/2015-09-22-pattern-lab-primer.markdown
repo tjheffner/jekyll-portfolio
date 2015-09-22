@@ -24,8 +24,6 @@ This walkthrough assumes your computer has node and ruby. If you're on a mac, ru
 
 2. Make a new directory to hold your pattern lab site. 
 Once in that directory: <br>`yo pattern-lab-starter`
-<br>
-
  If `yo` isn't an available command, install [Yeoman](https://yeoman.io){:target="_blank"} using: <br>`npm install -g yo`
 
 3. This isn't required, but installing the extras will give us a nice Sass framework off which to build: <br> `yo pattern-lab-starter:extras`
