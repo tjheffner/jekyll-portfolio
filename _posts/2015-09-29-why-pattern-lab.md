@@ -14,9 +14,9 @@ First, what do we mean by prototyping?
 
 **"Simple, rapid, iterative generation of HTML, CSS, Javascript, and other assets expressly for the purpose of informing - and consumption by - builds in more complex systems."**
 
-The rapid, iterative generation of assets provides developers(/designers/teams/clients) with some enormous benefits. Pixel-perfect design comps rarely, if ever, translate exactly to the web. They are a wonderful starting point, but with the multitude of screen sizes available to users today, it's practically impossible to match the comps entirely. That's where iteration comes in-- quickly see what works and what doesn't, across all aspects of the design.
+The rapid, iterative generation of assets provides developers(/designers/teams/clients) with some enormous benefits. Pixel-perfect design comps are a wonderful starting point, but with the multitude of screen sizes available to users today, it's practically impossible to translate comps exactly to the web. That's where iteration comes in-- quickly see what works and what doesn't, across all aspects of the design.
 
-* Solve problems early, before complex backend dev
+* Solve problems early, before complex back-end dev
 * Test UX early with real code
 * Easily updateable designs
 * Shared design vocabulary
@@ -25,13 +25,13 @@ The rapid, iterative generation of assets provides developers(/designers/teams/c
 * Parallel development with "back-end"
 * Roadmap for back-end development
 
-All of those are important, but those last two are truly invaluable. Many current workflows have a division between front and back-end devs. Front end development can't truly begin until the complex backend structure is built and generating the html that needs to be stylized. Prototyping turns that division into a true partnership-- front-end developers can quickly generate simple HTML representations with real CSS. While the back-end is being constructed, there are visible guidelines for what structures are needed and which classes need applied where. By following those guides, the CSS from the prototype is the exact same as the CSS for the actual production site.
+All of those are important, but those last two are truly invaluable. Many current workflows have a division between front and back-end devs. Front end development can't truly begin until the complex backend structure is built and generating the html that needs to be stylized. Prototyping turns that division into a true partnership-- front-end developers can quickly generate simple HTML representations with real assets (CSS, JS, Icons, etc). While the back-end is being constructed, there are visible guidelines for what structures are needed and which classes need applied where. By following those guides, the CSS (and other assets) from the prototype are the exact same as the assets for the actual production site.
 
 With all of that in mind, let's talk about Pattern Lab.
 
 ## Prototyping with Pattern Lab
 
-Pattern Lab is [in my opinion] the ideal tool for front-end web development in 2015. It's really a collection of tools, including a living style guide, a component library, a viewport resizer for easy testing among a variety of screen sizes, annotations, and an auto refresh tool. All of which combine to streamline front-end development.
+Pattern Lab is, in my opinion, the ideal tool for front-end web development in 2015. It's really a collection of tools, including: a living style guide, a component library, a viewport resizer for easy testing among a variety of screen sizes, annotations, and an auto refresh tool. All of which combine to streamline front-end development.
 
 * Implements Atomic Design at a code level
 * Produces HTML and assets like CSS and JS
@@ -44,10 +44,9 @@ Pattern Lab is [in my opinion] the ideal tool for front-end web development in 2
 
 The un-opinionated nature of Pattern Lab makes it trivial to add to your current workflow-- no need to learn new styles of writing code, Pattern Lab handles them all just the same.
 
-
-
+With Pattern Lab, everyone on the team has access to everything– it’s very easy to see all design components, from basic styles and color palettes all the way through to full page mockups, at a glance and how they fit together. This improves communication among various team members immensely. No more confusion about if you meant the header-logo--small or the small-header_logo. It also makes editing trivial. Need to change a wrapper div around a button? Thanks to Pattern Lab's robust templating, fix it in one place, it’s fixed everywhere. No more hunting through thirty different pages to make sure you didn’t miss one.
  
 
-## But really, why?
-I think the Pattern Lab website explains it best:
+## But really, why use Pattern Lab?
+I think the [Pattern Lab](http://patternlab.io) website explains it best:
 ![](/assets/posts/whypl.png)
