@@ -44,11 +44,11 @@ Pattern Lab is, in my opinion, the ideal tool for front-end web development in 2
 
 The un-opinionated nature of Pattern Lab makes it trivial to add to your current workflow-- no need to learn new styles of writing code, Pattern Lab handles them all just the same.
 
-With Pattern Lab, everyone on the team has access to everything– it’s very easy to see all design components, from basic styles and color palettes all the way through to full page mockups, at a glance and how they fit together. This improves communication among various team members immensely. No more confusion about if you meant the `.header-logo--small` or the `.small-header_logo`.
+With Pattern Lab, everyone on the team has access to everything– it’s very easy to see all design components at a glance and how they fit together, from basic styles and color palettes all the way through to full page mockups. This accessibility improves communication among various team members immensely. No more confusion about if you meant the `.header-logo--small` or the `.small-header_logo`.
 
 Pattern Lab also makes editing trivial. Need to change a wrapper div around a button? Thanks to Pattern Lab's robust templating, fix it in one place, it’s fixed everywhere. No more hunting through umpteen different pages to make sure you didn’t miss one. Plus, the auto-refresh means you see all your changes instantly, ensuring things look exactly how they should.
 
-As an added bonus, Pattern Lab can be hosted as a standalone styleguide / component library, or included as part of a larger theme in Drupal or Wordpress. If it's part of a theme, there is no duplication or moving of files required between Pattern Lab and the theme itself-- they share the exact same assets. Everything lines up perfectly. Because the assets used for the prototype are the same assets used for production, there is very little development time truly wasted by prototyping, but a whole host of efficient, cost-saving benefits.
+As an added bonus, Pattern Lab can be hosted as a standalone styleguide & component library, or included as part of a larger theme in Drupal or Wordpress. If it's part of a theme, there is no duplication or moving of files required between Pattern Lab and the theme itself-- they share the exact same assets. Everything lines up perfectly. Because the assets used for the prototype are the same assets used for production, there is very little development time truly wasted by prototyping, but a whole host of efficient, cost-saving benefits.
 
 ## But really, why use Pattern Lab?
 If you're still not convinced, I think the [Pattern Lab](http://patternlab.io) website explains it best:
