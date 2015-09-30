@@ -44,8 +44,9 @@ Pattern Lab is, in my opinion, the ideal tool for front-end web development in 2
 
 The un-opinionated nature of Pattern Lab makes it trivial to add to your current workflow-- no need to learn new styles of writing code, Pattern Lab handles them all just the same.
 
-With Pattern Lab, everyone on the team has access to everything– it’s very easy to see all design components, from basic styles and color palettes all the way through to full page mockups, at a glance and how they fit together. This improves communication among various team members immensely. No more confusion about if you meant the header-logo--small or the small-header_logo. It also makes editing trivial. Need to change a wrapper div around a button? Thanks to Pattern Lab's robust templating, fix it in one place, it’s fixed everywhere. No more hunting through thirty different pages to make sure you didn’t miss one.
- 
+With Pattern Lab, everyone on the team has access to everything– it’s very easy to see all design components, from basic styles and color palettes all the way through to full page mockups, at a glance and how they fit together. This improves communication among various team members immensely. No more confusion about if you meant the `.header-logo--small` or the `.small-header_logo`.
+
+Pattern Lab also makes editing trivial. Need to change a wrapper div around a button? Thanks to Pattern Lab's robust templating, fix it in one place, it’s fixed everywhere. No more hunting through thirty different pages to make sure you didn’t miss one. Plus, the auto-refresh means you see all your changes instantly, ensuring things look exactly how they should.
 
 ## But really, why use Pattern Lab?
 I think the [Pattern Lab](http://patternlab.io) website explains it best:
