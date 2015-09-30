@@ -18,21 +18,21 @@ With live-reloading, viewport resizing, and page-specific json, it's super easy 
 ## Prereqs, installation, setup
 This walkthrough assumes your computer has node and ruby. If you're on a mac, ruby is preinstalled. If `node -v` returns something like `v0.10.xx`, you're all set. If not, visit [node.js](https://nodejs.org/en/){:target="_blank"}.
 
-1. To keep this as simple as possible:
+* To keep this as simple as possible:
 	`npm install -g generator-pattern-lab-starter`
 
-2. Make a new directory to hold your pattern lab site. 
+* Make a new directory to hold your pattern lab site. 
 Once in that directory: `yo pattern-lab-starter`
 
- If `yo` isn't an available command, install [Yeoman](https://yeoman.io){:target="_blank"} using: `npm install -g yo`
+	* If `yo` isn't an available command, install [Yeoman](https://yeoman.io){:target="_blank"} using: `npm install -g yo` 
+<br>	
+* This isn't required, but installing the extras will give us a nice Sass framework off which to build: `yo pattern-lab-starter:extras`
 
-3. This isn't required, but installing the extras will give us a nice Sass framework off which to build: `yo pattern-lab-starter:extras`
-
-4. Those three (four) commands should be all you need to get up and running, but just in case: `npm install && bower install && bundler install`
+* Those three (four) commands should be all you need to get up and running, but just in case: `npm install && bower install && bundler install`
 
 	**That command is the first thing you should run if you have any problems.**
 
-5. Once everything is installed (and updated), pattern lab is started by invoking grunt:
+* Once everything is installed (and updated), Pattern Lab is started by invoking grunt:
 `grunt`
 
 ## Pattern Lab Structure
@@ -69,7 +69,7 @@ Our example page looks simple enough--- there's a header with navigation and sea
 Our starter kit comes with pre-existing patterns for most of these, but we're going to tweak them a bit and build some of our own to really understand how it all works.
 
 ### Creating Components
-We'll start by building on of the most used components on this page: a little "product" molecule (dark blue squares). Naming things is the hardest part of pattern lab, because these patterns can and will be used all over your pages. What makes sense as a name in one context may be wildly out of place in another. Your pattern names should walk a fine line between being too generic or too specific.
+We'll start by building on of the most used components on this page: a little "product" molecule (dark blue squares). Naming things is the hardest part of Pattern Lab, because these patterns can and will be used all over your pages. What makes sense as a name in one context may be wildly out of place in another. Your pattern names should walk a fine line between being too generic or too specific. It is fine to make a new, specific pattern for something that's only present on one page-- by making it a pattern, it's incredibly easy to re-use elsewhere, if necessary.
 
 We're starting with a molecule instead of an atom because our starter kit gives us a bunch of placeholder images, so we don't need to make a product image. You can see all of the placeholder files in: `pattern-lab/source/_patterns/00-atoms/04-images/`.
 
