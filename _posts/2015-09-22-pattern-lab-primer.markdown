@@ -2,7 +2,7 @@
 layout: post
 title:  "Pattern Lab Primer"
 date:   2015-09-22 00:00:00
-categories: "pattern lab" atomic design systems prototype style guides
+categories: pattern lab atomic design systems prototype style guides
 ---
 
 [Pattern Lab](http://patternlab.io){:target="_blank"} can seem daunting at first! There's a lot of ground to cover and options to configure properly to really make the most of what Pattern Lab offers. Luckily for us, people have created wonderful kits that do all of the configuration work for us. 
@@ -11,7 +11,7 @@ This post will attempt to introduce a sane workflow with Pattern Lab, using one 
 
 Designing things atomically may seem like a pain at first, after all, when is a button or link going to exist solely on its own? Probably never.
 
-However, designing sites atomically with Pattern Lab offers enormous benefits. First, everyone has access to everything-- it's very easy to see all design components at a glance and how they fit together. This improves communication among various team members immensely. No more confusion about if you meant the header-logo-small or the small-logo-header. It also makes editing trivial. Need to change a wrapper div around a button? Thanks to templating, fix it in one place, it's fixed everywhere. No more hunting through thirty different pages to make sure you didn't miss one.
+However, designing sites atomically with Pattern Lab offers enormous benefits. First, everyone has access to everything-- it's very easy to see all design components at a glance and how they fit together. This improves communication among various team members immensely. No more confusion about if you meant the header-logo-small or the small-header-logo. It also makes editing trivial. Need to change a wrapper div around a button? Thanks to templating, fix it in one place, it's fixed everywhere. No more hunting through thirty different pages to make sure you didn't miss one.
 
 With live-reloading, viewport resizing, and page-specific json, it's super easy to ensure your site works as intended in all sorts of conditions.
 
@@ -39,8 +39,8 @@ Once in that directory: `yo pattern-lab-starter`
 
 After running `grunt`, your browser should be open to: `localhost:9005/pattern-lab/public`. What you are seeing is a working repository of your entire website, from individual components all the way to full pages. If you installed the extras, you'll be seeing even more. Take some time to search around the top menu to see components individually. 
 
-All of that is built out of this file structure we just generated with yeoman.
-![](/assets/posts/pl-structure.png)
+All of that is built out of this file structure we just generated with yeoman. <br>
+![](/assets/posts/plprimer/pl-structure.png)
 
 - The pattern-lab folder is what ultimately populates the dropdown menu at the top of localhost:9005. We don't edit anything in `pattern-lab/public` however. The real treasure is one folder lower, in `pattern-lab/source`. 
 That folder holds all of our mustache templates, conveniently organized into their respective pattern type (atoms, molecules, organisms, templates, and pages). 
@@ -59,18 +59,35 @@ For this walkthrough, there are only three folders we're concerned with: **patte
 
 
 We're going to build a page like this:
-![](/assets/posts/amazon.png)
+![](/assets/posts/plprimer/amazon.png) <br> <br>
 
 First, let's break that page up into it's components (or patterns). Patterns can be any size, but a nice rule of thumb is if it can be (or will be) re-used on a different page, it's a good idea to make it a pattern. This will save you in the long run from repeatedly hard-coding the same pieces of markup. 
 
-![](/assets/posts/amazon-components.png)
-Our example page looks simple enough--- there's a header with navigation, a main content area, a sidebar, and a footer [not pictured].
+![](/assets/posts/plprimer/amazon-components.png) <br> <br>
+Our example page looks simple enough--- there's a header with navigation and search, a main content area, and a sidebar.
 
 Our starter kit comes with pre-existing patterns for most of these, but we're going to tweak them a bit and build some of our own to really understand how it all works.
 
 ### Creating Components
-Let's start by building a little "product" molecule. Naming things is the hardest part of pattern lab, because these patterns can and will be used all over your pages. What makes sense as a name in one context may be wildly out of place in another. Your pattern names should walk a fine line between being too generic or too specific.
+We'll start by building on of the most used components on this page: a little "product" molecule (dark blue squares). Naming things is the hardest part of pattern lab, because these patterns can and will be used all over your pages. What makes sense as a name in one context may be wildly out of place in another. Your pattern names should walk a fine line between being too generic or too specific.
 
-### Turning atoms into molecules and organisms
-### Combining parts to create templates
+We're starting with a molecule instead of an atom because our starter kit gives us a bunch of placeholder images, so we don't need to make a product image. You can see all of the placeholder files in: `pattern-lab/source/_patterns/00-atoms/04-images/`.
+
+Not every pattern lab project will have that much organization inside of the larger type folders (atoms, molecules, etc), but its a nice practice to get into. It makes finding specific patterns much easier.
+
+For our product molecule, we're going to want a new file inside of the molecules folder. Here's what my filepath looks like: `pattern-lab/source/_patterns/01-molecules/06-components/03-product.mustache`
+
+This file is going to be fairly simple, it's just a molecule after all. All it's going to have is a wrapper div containing a mustache partial linking back to one of those placeholder images, in this case `pattern-lab/source/_patterns/00-atoms/04-images/_03-square.mustache`. That seems like a mouthful, but Pattern Lab, using Mustache, makes it trivial. It looks like this: <br>
+![](/assets/posts/plprimer/prodmolecule.png)<br>
+
+The greater than symbol is the magic that makes this whole shebang work. That tells mustache to search for the corresponding thing and place its contents there. For more information how this works, read the [docs](http://patternlab.io/docs/pattern-including.html){:target="_blank"}. In our case, we're telling it to search for an atom named square. It then looks through our entire atoms folder until it hits something with 'square' in it. This is another reason the naming + file structure are important-- it replaces that with the _first_ file it finds that matches. 
+
+
+### Combining Patterns
+Now that we have a product molecule, let's turn it into a product list organism (cyan boxes). These components are just several product molecules repeated in a list with some styling. 
+
+We'll need a new file for this organism. Mine is found at: `pattern-lab/source/_patterns/02-organisms/03-sections/03-product-list.mustache`
+
+
+### Creating templates
 ### Templates into specific pages
