@@ -6,17 +6,17 @@ date: 2015-09-29 00:00:00
 
 ## Prototyping
 
-No matter what your developmental choices are, be they oriented for Drupal, Wordpress, Ruby, or any of the other myriad possibilities available to developers in 2015-- at the end of the day, what you see on the web boils down to HTML.
+Whether your developmental choices are oriented for Drupal, Wordpress, Ruby, or any of the other myriad possibilities available to developers in 2015-- at the end of the day, what you see on the web boils down to HTML.
 
 If we keep this simple fact in mind, the power of prototyping, particularly with Pattern Lab, quickly becomes clear.
 
 First, what do we mean by prototyping?
 
-**"Simple, rapid, iterative generation of HTML, CSS, Javascript, and other assets expressly for the purpose of informing - and consumption by - builds in more complex systems."**
+**"Simple: rapid, iterative generation of HTML, CSS, Javascript, and other assets expressly for the purpose of informing - and consumption by - builds in more complex systems."**
 
-The rapid, iterative generation of assets provides developers(/designers/teams/clients) with some enormous benefits. Pixel-perfect design comps are a wonderful starting point, but with the multitude of screen sizes available to users today, it's practically impossible to translate comps exactly to the web. That's where iteration comes in-- quickly see what works and what doesn't, across all aspects of the design.
+The rapid, iterative generation of assets provides developers, and their teams, with enormous benefits. Pixel-perfect design comps are a wonderful starting point, but with the multitude of screen sizes available to users today, it's practically impossible to translate comps exactly to the web. That's where iteration comes in-- quickly see what works and what doesn't, across all aspects of the design.
 
-* Solve problems early, before complex back-end dev
+* Solve problems early
 * Test UX early with real code
 * Easily updateable designs
 * Shared design vocabulary
