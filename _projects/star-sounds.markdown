@@ -17,6 +17,7 @@ Originally built using Processing, later ported to the web with p5.js.
 
 <br>
 Hit any key to reveal some stars. Click a star to play a note. Hit any key to play a different space.
+If no sound plays, try using a different browser. Firefox seems to work best, chrome seems to have issues with p5.sound.js.
 
 
 <br>
