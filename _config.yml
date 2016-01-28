@@ -6,7 +6,6 @@ description: > # personal portfolio for tanner heffner. design, development, ill
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: its_tanner
-twitter_username2: foodpyramids
 github_username:  tjheffner
 linkedin_username: tannerheffner
 
