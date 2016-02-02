@@ -1,13 +1,15 @@
 ---
 layout: project
-title: about me
-permalink: /about/
+title: contact
+permalink: /contact/
 ---
 
-hello, welcome, thanks for being here.
+Hello, welcome, thanks for being here.
+Pardon the dust, this site is perpetually under construction.
 
-name's tanner. i live in portland, oregon. currently i'm employed as a developer at phase 2, where i work mostly on the front-end of drupal sites, but not always.
+I live in Portland, Oregon. Currently I'm employed as a developer at Phase2, where I work mostly on the front-end of Drupal sites, but not always. When I'm not doing that for money, sometimes I'm doing it for fun. I'm also interested in climbing, hiking, basketball, DIY, sustainability, art, books, happy hour, life, the universe, and everything, etc.
 
-this site is a collection of personal & student projects i enjoyed creating and should probably be updated far more often than it is.
-
-for questions/inquiries feel free to contact me through email or twitter
+<a href='mailto:{{site.email}}'>email</a>
+<a href='http://twitter.com/{{site.twitter_username}}'>twitter</a>
+<a href='http://github.com/{{site.github_username}}'>github</a>
+<a href='http://linkedin.com/{{site.linkedin_username}}'>linkedin</a>
