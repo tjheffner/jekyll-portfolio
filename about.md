@@ -12,4 +12,4 @@ I live in Portland, Oregon. Currently I'm employed as a developer at Phase2, whe
 <a href='mailto:{{site.email}}'>email</a>
 <a href='http://twitter.com/{{site.twitter_username}}'>twitter</a>
 <a href='http://github.com/{{site.github_username}}'>github</a>
-<a href='http://linkedin.com/{{site.linkedin_username}}'>linkedin</a>
+<a href='http://linkedin.com/in/{{site.linkedin_username}}'>linkedin</a>
