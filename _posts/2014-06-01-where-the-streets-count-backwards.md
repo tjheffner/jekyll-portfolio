@@ -7,14 +7,14 @@ date: 2014-06-01 12:00:00
 _My friend Austin Powe asked me to contribute an essay to a zine he was putting together about music that made you feel something, anything, where it counted. I feel a little guilty calling this an essay, but it was my submission nonetheless. Click to read his zine, <a href='http://www.scribd.com/doc/229092173/Surrounded-by-the-Sound-16-Stories-About-the-Music-That-Changed-Your-Life' target="_blank">“Surrounded by the Sound: 16 Stories About the Music That Changed Your Life.”</a>_
 
 <br>
-<br>
 
+<div class='blockquote'>
+“You were drunker than high school, self-conscious and sweet. <br>
+ I never ever felt so cool disguised in your sheets. <br>
+But I'm a constant headache, a tooth out of line.” <br>
 
->“You were drunker than high school, self-conscious and sweet.
-> I never ever felt so cool disguised in your sheets.
->But I'm a constant headache, a tooth out of line.”
-
-<b><i><a href='https://www.youtube.com/watch?v=EvIGgN-McsY'>Joyce Manor — Constant Headache</a></i></b>
+<b><i><a class='blockquote-caption' href='https://www.youtube.com/watch?v=EvIGgN-McsY'>Joyce Manor — Constant Headache</a></i></b>
+</div>
 
 It felt like it ended before it started. It was another drunk Halloween night, but one I’ll never forget. It was the most beautiful parking lot in Eugene. You were there. I can’t remember what we were giggling about, but I remember yr glow beneath the streetlights.
 The way you bit yr bottom lip before we finally kissed.
