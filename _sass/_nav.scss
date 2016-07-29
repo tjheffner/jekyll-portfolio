@@ -13,10 +13,15 @@
 
   @media all and (max-width: 600px) {
     /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    align-items: center;
 
+    .nav--col--list {
+      text-align: center;
+    }
   }
 }
 
