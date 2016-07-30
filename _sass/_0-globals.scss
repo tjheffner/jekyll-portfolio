@@ -1,12 +1,29 @@
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
+  background-color: $background-color;
+  line-height: $base-line-height;
 }
 
-ul, ol, li {
-  list-style: none;
+a {
+  color: $main-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $main-color;
+  }
+  &:hover {
+    background-color: yellow;
+  }
 }
 
-.site-content {
-  //max-width: $content-width;
+code {
+  background-color: $grey-color-light;
+  line-height: $base-line-height;
+  font-family: Consolas, Monaco, Lucida Console,Courier New, serif;
+}
+
+.page-content {
+  margin: $spacing;
+  max-width: $max-width;
 }

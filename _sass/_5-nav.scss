@@ -1,5 +1,6 @@
 .nav {
-  max-width: 860px;
+  max-width: $max-width;
+  margin-left: $spacing;
 
   display: flex;
   justify-content: flex-start;
@@ -8,24 +9,10 @@
 
   @media all and (max-width: 680px) {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 
     .site-info {
       text-align: center;
     }
-  }
-}
-
-.logo {
-  height: 100px;
-  width: 107px;
-
-  img {
-    height: 100%;
-    width: 100%;
   }
 }
 
@@ -36,4 +23,24 @@
 // Shoves the links over to the right by making the site info grow.
 .nav-col:nth-child(2) {
   flex: 1.5;
+}
+
+.logo {
+  height: 100px;
+  width: 107px;
+
+  a:hover {
+    background-color: unset;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.site-info > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

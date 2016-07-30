@@ -1,0 +1,21 @@
+.project-list {
+  max-width: $max-width;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 0;
+  list-style: none;
+
+  // Nest this so it only applies on homepage.
+  .project {
+    margin: 1px;
+    &:hover a {
+      outline: 3px solid yellow;
+    }
+  }
+}
+
+// Adjust spacing on individual project pages.
+.page-content > .project {
+  margin-left: $spacing-double;
+}

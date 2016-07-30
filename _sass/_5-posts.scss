@@ -1,0 +1,41 @@
+.post-list {
+  line-height: 1.5;
+  font-size: 16px;
+  > li {
+    list-style: square;
+  }
+
+}
+
+.post-meta {
+  color: $grey-color;
+  margin-top: -$spacing;
+}
+
+// Adjust spacing on individual posts.
+.page-content > .post {
+  margin-left: $spacing-double;
+}
+
+
+blockquote, .blockquote {
+  flex: 1 100%;
+  color: $grey-color;
+  padding-left: $spacing-double / 2;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+      margin-bottom: 0;
+  }
+
+}
+.blockquote-caption {
+  display: flex;
+  align-self: auto;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: $spacing-double * 8;
+  padding-bottom: $spacing-double;
+}
