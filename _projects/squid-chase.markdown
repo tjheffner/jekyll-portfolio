@@ -10,7 +10,7 @@ Squid Chase was built with the help of Tom Mertz and Connor Abdelnoor, two other
 <br>
 <br>
 
-<a href="{{ site.url }}/squidchase" target="_blank">Play it here!</a>
+<a href="{{ site.url }}/assets/squidchase" target="_blank">Play it here!</a>
 
 <br>
 Check the code on <a href="https://github.com/tjheffner/squarechase-game" target="_blank">github.</a>
