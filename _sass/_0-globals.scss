@@ -1,0 +1,12 @@
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+.site-content {
+  max-width: $content-width;
+}

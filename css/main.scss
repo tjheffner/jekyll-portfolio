@@ -4,7 +4,8 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "0-global",
+        "0-variables",
+        "0-globals",
         "5-nav",
         "10-components",
         "10-slideshow",

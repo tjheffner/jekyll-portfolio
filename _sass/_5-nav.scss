@@ -1,32 +1,36 @@
 .nav {
-  display: flex;
-  flex: 1 100%;
   background-color: #FAFAFA;
   line-height: 1;
   font-size: 12px;
-}
 
-.logo {
-  height: 100px;
-  width: 107px;
-  float: left;
-  margin-right: 10px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 
-  //display: flex;
-  //flex-direction: row;
-  //justify-content: flex-start;
-  //align-items: flex-end;
-
-  @media all and (max-width: 600px) {
-    /* On small screens, we are no longer using row direction but column */
+  @media all and (max-width: 680px) {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
 
-    .nav--col--list {
+    .site-info {
       text-align: center;
     }
   }
+}
+
+.logo {
+  height: 100px;
+  width: 107px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.nav-col {
+  margin: $spacing;
+}
