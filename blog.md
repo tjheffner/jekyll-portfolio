@@ -1,6 +1,6 @@
 ---
 layout: project
-title: blog
+title: words
 permalink: /blog/
 order: 2
 ---
@@ -8,8 +8,6 @@ order: 2
 <div class="home">
 
   <ul class="post-list">
-    all posts
-    <br>
     {% for post in site.posts %}
       <li>
 

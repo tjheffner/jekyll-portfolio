@@ -4,20 +4,25 @@ $base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+// Spacing helpers.
 $gap:              5px;
 $spacing:          15px;
-$spacing-unit:     30px;
+$spacing-double:     30px;
 
+// Common colors.
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+
+$main-color:       #2a7ae2;
+$second-color:     #009900;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
+// Width of the content area.
 $content-width:    1024px;
 
-$bp-small:          360px;
-$bp-medium:         768px;
+// Breakpoints.
+$bp-small:         360px;
+$bp-medium:        768px;

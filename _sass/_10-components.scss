@@ -35,7 +35,7 @@
 .blockquote {
   flex: 1 100%;
   color: $grey-color;
-  padding-left: $spacing-unit / 2;
+  padding-left: $spacing-double / 2;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic;
@@ -50,6 +50,6 @@
   align-self: auto;
   font-size: 14px;
   padding-top: 10px;
-  padding-left: $spacing-unit * 8;
-  padding-bottom: $spacing-unit;
+  padding-left: $spacing-double * 8;
+  padding-bottom: $spacing-double;
 }
