@@ -17,3 +17,4 @@ Visit localhost:4000 in your browser.
 - reorder projects on homepage 
 - add pictures/video for file cabinet meat smoker :+)
 - add audio-reactive stills & video for mike's sounds
+- overhaul css
