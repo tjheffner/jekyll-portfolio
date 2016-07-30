@@ -6,7 +6,7 @@ thumbnail: "/assets/thumbnails/smoker.png"
 custom_js: slideshow
 ---
 
-Over the course of several weekends, I turned a metal file cabinet into a working meat smoker / bbq. 
+Over the course of several weekends, I turned a metal file cabinet into a working meat smoker + BBQ. 
 
 _1 all-metal file cabinet, 3 metal grates, 2 cans of heat-resistant grill paint, 3 BBQ thermometers, 2 floor vents, wood._
 

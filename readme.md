@@ -16,5 +16,5 @@ Visit localhost:4000 in your browser.
 # TO DO
 - reorder projects on homepage 
 - update about page
-- add pictures/video for file cabinet meat smoker :+)
+- write walkthrough for the file cabinet
 - add audio-reactive stills & video for mike's sounds
