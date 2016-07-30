@@ -3,6 +3,7 @@ layout: project
 title: connect
 permalink: /connect/
 ---
+you can reach me on the internet in these places:
 
 <a href='mailto:{{site.email}}'>email</a> <br>
 <a href='http://twitter.com/{{site.twitter_username}}' target="_blank">twitter (professional)</a> <br>
