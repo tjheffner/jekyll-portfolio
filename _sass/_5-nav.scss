@@ -12,10 +12,6 @@
 
     .site-info {
       text-align: center;
-      ul {
-        margin: 0;
-        padding: 0;
-      }
     }
   }
 }
@@ -41,4 +37,10 @@
     height: 100%;
     width: 100%;
   }
+}
+
+.site-info > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

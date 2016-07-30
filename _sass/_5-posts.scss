@@ -1,14 +1,24 @@
 .post-list {
   line-height: 1.5;
-}
-
-.post-content {
-  h2 {
-    border-bottom: solid 1px $grey-color-light;
+  font-size: 16px;
+  > li {
+    list-style: square;
   }
+
 }
 
-.blockquote {
+.post-meta {
+  color: $grey-color;
+  margin-top: -$spacing;
+}
+
+// Adjust spacing on individual posts.
+.page-content > .post {
+  margin-left: $spacing-double;
+}
+
+
+blockquote, .blockquote {
   flex: 1 100%;
   color: $grey-color;
   padding-left: $spacing-double / 2;

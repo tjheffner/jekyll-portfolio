@@ -5,10 +5,6 @@ body {
   line-height: $base-line-height;
 }
 
-ul, ol, li {
-  list-style: none;
-}
-
 a {
   color: $main-color;
   text-decoration: none;
@@ -24,7 +20,7 @@ a {
 code {
   background-color: $grey-color-light;
   line-height: $base-line-height;
-  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+  font-family: Consolas, Monaco, Lucida Console,Courier New, serif;
 }
 
 .page-content {
