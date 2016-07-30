@@ -3,10 +3,9 @@ Personal website built using the [Jekyll static-site generator](http://jekyllrb.
 
 See it live at: [www.tannerheffner.com](http://www.tannerheffner.com).
 
-# Setup
+# Local setup
 Clone the repository.
 From the main directory:
-
 
     $ jekyll build -w
     $ jekyll serve

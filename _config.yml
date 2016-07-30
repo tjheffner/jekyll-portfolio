@@ -2,7 +2,7 @@
 title: tanner heffner
 occupation: developer + designer
 email: tannerjheffner@gmail.com
-description: > # personal portfolio for tanner heffner. design, development, illustration, writing
+description: personal sandbox
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
@@ -31,3 +31,6 @@ defaults:
       layout: "project"
       author: "Tanner Heffner"
       baseurl: "/blog/"
+
+sass:
+  sass_dir: _sass
