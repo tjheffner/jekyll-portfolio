@@ -13,7 +13,7 @@ Originally built using Processing, later ported to the web with p5.js.
 <br>
 <br>
 
-<a href="{{ site.url }}/starsounds" target="_blank">Make your own music from the stars here!</a>
+<a href="{{ site.url }}/assets/starsounds" target="_blank">Make your own music from the stars here!</a>
 
 <br>
 Hit any key to reveal some stars. Click a star to play a note. Hit any key to play a different space.

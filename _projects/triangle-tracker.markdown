@@ -10,7 +10,7 @@ Simple enough, but I wanted to actually _see_ the triangle, not just its suppose
 if it exists, is also drawn using jQuery and SVG polygons. Turns out, my 9th-grade math teacher was right--- algebra did come in handy someday.
 
 <br>
-<a href="{{ site.url }}/triangles/" target="_blank">Test it out here!</a>
+<a href="{{ site.url }}/assets/triangles/" target="_blank">Test it out here!</a>
 
 <br>
 Check the code on <a href="https://github.com/tjheffner/Assessment5" target="_blank">github.</a>
