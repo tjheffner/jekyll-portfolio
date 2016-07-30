@@ -5,9 +5,14 @@ email: tannerjheffner@gmail.com
 description: > # personal portfolio for tanner heffner. design, development, illustration, writing
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+# social medias
 twitter_username: its_tanner
+twitter2_username: foodpyramids
+instagram_username: foodpyramids
 github_username:  tjheffner
 linkedin_username: tannerheffner
+drupal_username: tjh
 
 # Build settings
 markdown: kramdown
