@@ -8,13 +8,13 @@
 
   @media all and (max-width: 680px) {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 
     .site-info {
       text-align: center;
+      ul {
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 }
