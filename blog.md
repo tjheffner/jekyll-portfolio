@@ -1,12 +1,15 @@
 ---
 layout: project
-title: all posts
+title: blog
 permalink: /blog/
+order: 2
 ---
 
 <div class="home">
 
   <ul class="post-list">
+    all posts
+    <br>
     {% for post in site.posts %}
       <li>
 
