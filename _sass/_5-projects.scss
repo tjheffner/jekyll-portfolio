@@ -1,44 +1,16 @@
 .project-list {
-  list-style-type: none;
-  max-width: 950px;
-}
+  max-width: $max-width;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 0;
 
-.project-links {
-  margin-bottom: 5px;
-  margin-right: 5px;
-  float: left;
-}
-.project-links:hover {
-  outline: 3px solid yellow;
-}
-
-.project-content {
-  line-height: normal;
-}
-
-@media only screen and (max-width: 500px) {
-  .project-list {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-  }
-
-  .project-links {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    margin-bottom: 10px;
-    flex: 0 1 auto;
+  // Nest this so it only applies on homepage.
+  .project {
+    margin: 1px;
+    &:hover a {
+      outline: 3px solid yellow;
+    }
   }
 }
 
-@media only screen and (max-width: 650px) {
-  .project-list {
-    margin-left: 50px;
-  }
-}

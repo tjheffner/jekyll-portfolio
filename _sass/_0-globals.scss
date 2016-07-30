@@ -1,6 +1,7 @@
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
+  background-color: $background-color;
 }
 
 ul, ol, li {
@@ -19,8 +20,13 @@ a {
   }
 }
 
+code {
+  background-color: $grey-color-light;
+  line-height: $base-line-height;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
 
-
-.site-content {
-  //max-width: $content-width;
+.page-content {
+  margin: $spacing;
+  max-width: $max-width;
 }

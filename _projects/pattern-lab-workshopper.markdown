@@ -12,7 +12,7 @@ Read my blog post explaining how [Pattern Lab Workshop](https://www.npmjs.com/pa
 <br>
 
 ## Installation
-`npm install -g pattern-lab-workshop`
+`$ npm install -g pattern-lab-workshop`
 
 Make a new folder somewhere else to run the workshop in.
 
@@ -23,8 +23,8 @@ Make a new folder somewhere else to run the workshop in.
 
 
 ## Workshop Commands
-`pattern-lab-workshop` to open the menu
+`$ pattern-lab-workshop` to open the menu
 
-`pattern-lab-workshop verify` to test your submission
+`$ pattern-lab-workshop verify` to test your submission
 
-`pattern-lab-workshop reset` to clear all completed lessons
+`$ pattern-lab-workshop reset` to clear all completed lessons
