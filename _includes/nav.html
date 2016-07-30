@@ -1,53 +1,27 @@
-  <div class="nav">
+<div class="nav">
 
-    <div class="nav--container">
-      <div class="nav--col nav--col-0">
-
-        <div class="logo">
-          <a href="/">
-            <img src="/assets/logo.png" />
-          </a>
-        </div>
-      </div>
-
-      <div class="nav--col nav--col-1">
-        <ol class="nav--col--list">
-          <li><strong>{{ site.title }}</strong></li>
-          <li>{{ site.occupation }}</li>
-        </ol>
-      </div>
-
-      <div class="nav--col  nav--col-2">
-        <ol class="nav--col--list">
-          <li>
-            <a href="/">projects</a>
-          </li>
-        </ol>
-      </div>
-
-      <div class="nav--col  nav--col-3">
-        <ol class="nav--col--list">
-          <li>
-            <a href="/blog/"><span class="username">words</span></a>
-          </li>
-        </ol>
-      </div>
-
-      <div class="nav--col nav--col-4">
-        <ol class="nav--col--list">
-          <li>
-            <a href="/about/">about</a>
-          </li>
-        </ol>
-      </div>
-
-      <div class="nav--col nav--col-4">
-        <ol class="nav--col--list">
-          <li>
-            <a href="/connect/">connect</a>
-          </li>
-        </ol>
-      </div>
-
+  <div class="nav-col">
+    <div class="logo">
+      <a href="/">
+        <img src="/assets/logo.png" />
+      </a>
     </div>
   </div>
+
+  <div class="nav-col">
+    <div class="site-info">
+      <li><strong>{{ site.title }}</strong></li>
+     <li>{{ site.occupation }}</li>
+    </div>
+  </div>
+
+  {% assign pages = site.pages | sort:"order" %}
+  {% for page in pages %}
+    {% if page.title %}
+    <div class="nav-col">
+      <a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }} </a>
+    </div>
+    {% endif %}
+  {% endfor %}
+
+</div>

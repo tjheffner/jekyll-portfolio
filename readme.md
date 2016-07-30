@@ -3,10 +3,9 @@ Personal website built using the [Jekyll static-site generator](http://jekyllrb.
 
 See it live at: [www.tannerheffner.com](http://www.tannerheffner.com).
 
-# Setup
+# Local setup
 Clone the repository.
 From the main directory:
-
 
     $ jekyll build -w
     $ jekyll serve
@@ -16,4 +15,3 @@ Visit localhost:4000 in your browser.
 # TO DO
 - add pictures/video for file cabinet meat smoker :+)
 - add audio-reactive stills & video for mike's sounds
-- overhaul css

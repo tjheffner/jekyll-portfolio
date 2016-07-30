@@ -2,6 +2,7 @@
 layout: project
 title: about
 permalink: /about/
+order: 3
 ---
 
 Hello, welcome, thanks for being here.

@@ -2,6 +2,7 @@
 layout: project
 title: connect
 permalink: /connect/
+order: 4
 ---
 you can reach me on the internet in these places:
 
