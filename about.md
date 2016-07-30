@@ -8,7 +8,7 @@ Hello, welcome, thanks for being here.
 
 Pardon the dust, this site is perpetually under construction.
 
-My name is Tanner Heffner and I live in Portland, Oregon. I went to the University of Oregon where I received a B.S. in Journalism: Advertising, with a minor in Multimedia Art.
+My name is Tanner Heffner and I live in Portland, Oregon. I graduated from the University of Oregon in 2014, where I received a B.S. in Journalism: Advertising, with a minor in Multimedia Art.
 After that, I attended a four-month vocational program for web development called Epicodus. Currently I'm employed as a developer at <a href="http://www.phase2technology.com" target="_blank">Phase2</a>, where I work mostly on the front-end of Drupal sites, but not always.
 
  
