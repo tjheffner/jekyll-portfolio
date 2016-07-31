@@ -14,26 +14,26 @@ _1 all-metal file cabinet, 3 metal grates, 2 cans of heat-resistant grill paint,
   <span class="button prevButton"> << </span>
   <span class="button nextButton"> >> </span>
   <ul>
-    <li><img src="{{ site.url }}/assets/filesmoker/1.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/2.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/3.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/4.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/5.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/6.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/7.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/9.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/10.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/11.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/12.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/13.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/15.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/16.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/15a.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/17.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/18.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/15b.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/1.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/2.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/3.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/4.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/5.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/6.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/7.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/9.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/10.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/11.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/12.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/13.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/15.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/16.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/15a.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/17.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/18.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/15b.jpg" ></li>
     <li><iframe width="840" height="630" src="https://www.youtube.com/embed/JdYlvx5l3zI" frameborder="0" allowfullscreen></iframe></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/19.jpg" ></li>
-    <li><img src="{{ site.url }}/assets/filesmoker/20.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/19.jpg" ></li>
+    <li><img src="{{ site.url }}/assets/smoker/20.jpg" ></li>
   </ul>
 </div>
