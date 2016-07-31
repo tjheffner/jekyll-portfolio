@@ -8,6 +8,8 @@ custom_js: slideshow
 
 Selected digital sketches.
 
+_Photoshop, Illustrator_
+
 <div class="slideshow">
   <span class="button prevButton"> << </span>
   <span class="button nextButton"> >> </span>
