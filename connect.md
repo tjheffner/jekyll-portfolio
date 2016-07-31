@@ -4,7 +4,7 @@ title: connect
 permalink: /connect/
 order: 4
 ---
-You can find me on the internet in these places:
+You can find me on the internet here:
 
 <a href='mailto:{{site.email}}'>email</a> <br>
 <a href='http://twitter.com/{{site.twitter_username}}' target="_blank">twitter (professional)</a> <br>
