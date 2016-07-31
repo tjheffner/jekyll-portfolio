@@ -15,24 +15,24 @@ After that, I attended a four-month vocational program for web development calle
 
  
 When I'm not developing for work, sometimes I'm doing it for fun. Some other things that interest me include: <br>
-<span class="spacer">
- climbing, <br>
- hiking, <br>
- basketball,  <br>
- art, <br>
- DIY, <br>
- sustainability,  <br>
- the intersection of art and technology, <br>
- social media, <br>
- good Mexican food, <br>
- books, <br>
- cooking, <br>
- happy hour, <br>
- life, <br>
- the universe,  <br> 
- and everything,  <br>
- etc.  <br>
-</span>
+<ul class="stuff">
+ <li>climbing, </li><br>
+ <li>hiking, </li><br>
+ <li>basketball,  </li><br>
+ <li>art,</li> <br>
+ <li>DIY, </li><br>
+ <li>sustainability, </li> <br>
+ <li>the intersection of art and technology,</li> <br>
+ <li>social media, </li><br>
+ <li>good Mexican food, </li><br>
+ <li>books, </li><br>
+ <li>cooking, </li><br>
+ <li>happy hour,</li> <br>
+ <li>life, </li><br>
+ <li>the universe, </li> <br> 
+ <li>and everything, </li> <br>
+ <li>etc. </li> <br>
+</ul>
 
 I'm unable to share most client-work publicly in a timely manner, so nearly everything on this website is a personal project.
 If you would like to see work I've done professionally, are interested in collaborating, or just want to chat, please <a href='/connect/'>drop me a line.</a>
