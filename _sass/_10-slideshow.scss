@@ -4,13 +4,12 @@
 
 .slideshow {
   width:750px;
-  height:750px;
   position:relative;
 }
 
 .slideshow ul {
   width:750px;
-  height:750px;
+  height:1050px;
   list-style:none outside none;
   position:relative;
   overflow:hidden;
@@ -52,4 +51,8 @@
 		z-index:2000;
     left: 30px;
     top: 0;
+}
+
+.slideshow img {
+  width: 100%;
 }

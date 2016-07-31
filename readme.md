@@ -13,5 +13,5 @@ From the main directory:
 Visit localhost:4000 in your browser.
 
 # TO DO
-- add pictures/video for file cabinet meat smoker :+)
+- write walkthrough for the file cabinet
 - add audio-reactive stills & video for mike's sounds
