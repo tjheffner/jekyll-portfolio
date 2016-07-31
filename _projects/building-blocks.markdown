@@ -16,14 +16,14 @@ What resulted were some of the University of Oregon's most iconic bricks and blo
   <span class="button prevButton"> << </span>
   <span class="button nextButton"> >> </span>
   <ul>
-    <li><img src="{{ site.url }}/assets/blocks/1.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/2.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/3.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/4.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/5.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/6.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/7.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/8.png" /></li>
-    <li><img src="{{ site.url }}/assets/blocks/9.png" /></li>
+    <li><img src="{{ site.url }}/assets/blocks/1.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/2.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/3.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/4.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/5.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/6.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/7.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/8.png" ></li>
+    <li><img src="{{ site.url }}/assets/blocks/9.png" ></li>
   </ul>
 </div>
