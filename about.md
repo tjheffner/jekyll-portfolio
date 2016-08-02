@@ -7,7 +7,7 @@ order: 3
 
 Hello, welcome, thanks for being here.
 
-Pardon the dust, this site is perpetually under construction. I'm unable to share client-work publicly in a timely manner, so this website is intended more as a personal sandbox. You can view it's <a href="https://github.com/tjheffner/tjheffner.github.io" target="_blank">current mess here</a>.
+Pardon the dust, this site is perpetually under construction. I'm unable to share client-work publicly in a timely manner, so this website is intended more as a personal sandbox. You can view under the hood of it's <a href="https://github.com/tjheffner/tjheffner.github.io" target="_blank">current mess here</a>.
 
 My name is Tanner and I live in Portland, Oregon. I graduated from the University of Oregon in 2014, where I received a B.S. in Journalism: Advertising, with a minor in Multimedia Art. After that, I attended a four-month vocational program for web development at a place called Epicodus. <br>
 
