@@ -34,7 +34,7 @@ $(window).load(function(){
 			}	else {
 				counter = counter - 1;
 			}
-			
+
 			// Set nextpage to updated counter value.
 			nextPage = pages.eq(counter);
 
