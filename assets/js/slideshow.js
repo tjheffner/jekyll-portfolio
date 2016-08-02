@@ -24,4 +24,16 @@ $(window).load(function(){
 			currentPage.hide();
 			nextPage.show();
 		});
+
+		$('.slideshow > ul > li > img').click(function(){
+			currentPage= pages.eq(current);
+			if (current >= pages.length-1) {
+				current = 0;
+			} else {
+				current++;
+			}
+			nextPage = pages.eq(current);
+			currentPage.hide();
+			nextPage.show();
+		});
 });
