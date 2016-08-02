@@ -31,6 +31,8 @@ defaults:
       layout: "project"
       author: "Tanner Heffner"
       baseurl: "/blog/"
+      permalink: /blog/:title/
+
 
 sass:
   sass_dir: _sass
