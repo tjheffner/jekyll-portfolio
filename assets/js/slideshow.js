@@ -1,39 +1,46 @@
+// Allows forward/back functionality for slideshow images.
 $(window).load(function(){
 		var pages = $('.slideshow li');
-    var current = 0;
+    var counter = 0;
 		var currentPage, nextPage;
 
-		$('.slideshow .button').click(function(){
-			currentPage= pages.eq(current);
-			if($(this).hasClass('prevButton'))
-			{
+		$('.slideshow .nextButton, .slideshow >ul > li > img').click(function(){
+			// Set page # equal to counter value.
+			currentPage = pages.eq(counter);
+			currentPage.show();
+			// Up the counter
+			counter++
 
-				if (current <= 0)
-					current=pages.length-1;
-				else
-					current=current-1;
+			// Counter can't go past # of items in slideshow.
+			if (counter >= pages.length) {
+				counter = 0;
 			}
-			else
-			{
-				if (current >= pages.length-1)
-					current=0;
-				else
-					current=current+1;
-			}
-			nextPage = pages.eq(current);
+
+			// Set nextpage to updated counter value.
+			nextPage = pages.eq(counter);
+
+			// Swap display of pages.
 			currentPage.hide();
 			nextPage.show();
 		});
 
-		$('.slideshow > ul > li > img').click(function(){
-			currentPage= pages.eq(current);
-			if (current >= pages.length-1) {
-				current = 0;
-			} else {
-				current++;
+		// If the back button is clicked, decrease counter.
+		$('.slideshow .prevButton').click(function(){
+			currentPage = pages.eq(counter);
+
+			// Allow looping from first to last image for ease of UX.
+			if (counter <= 0) {
+				counter = pages.length - 1;
+			}	else {
+				counter = counter - 1;
 			}
-			nextPage = pages.eq(current);
+			
+			// Set nextpage to updated counter value.
+			nextPage = pages.eq(counter);
+
+			// Swap display of pages.
 			currentPage.hide();
 			nextPage.show();
 		});
+
 });

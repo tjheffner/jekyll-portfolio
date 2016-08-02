@@ -2,12 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import partials from `sass_dir` (defined in _config.yml, defaults to `_sass`)
 @import
         "0-variables",
-        "0-globals",
-        "5-nav",
-        "5-posts",
-        "5-projects",
-        "10-slideshow"
+        "1-globals",
+        "2-nav",
+        "3-posts",
+        "3-projects",
+        "5-slideshow"
 ;

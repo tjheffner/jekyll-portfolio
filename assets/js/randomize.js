@@ -1,4 +1,4 @@
-// Shuffles project order on the homepage.
+// Shuffles project thumbnail order on the homepage.
 function shuffle() {
   var ul = document.querySelector('.project-list');
   for (var i = ul.children.length; i >= 0; i--) {
@@ -6,6 +6,7 @@ function shuffle() {
   }
 }
 
+// Wait until everything is ready to be shuffled.
 window.onload = function() {
   shuffle();
 }
