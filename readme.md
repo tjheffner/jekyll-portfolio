@@ -21,18 +21,7 @@ See it live at: [www.tannerheffner.com](http://www.tannerheffner.com).
 - _sass files are compiled to the main css file in the css folder.
 - Any custom or project-specific javascript is loaded on an as-needed basis from assets/js. Project files are stored in subfolders of /assets/.
 - Standalone pages (about, blog list, connect, etc) have their own individual .md files in the project root.
-
-The sass folder is structured like so: <br>
-        .
-        ├── _0-syntax-highlights.scss
-        ├── _0-variables.scss
-        ├── _1-globals.scss
-        ├── _2-nav.scss
-        ├── _3-posts.scss
-        ├── _3-projects.scss
-        └── _5-slideshow.scss
-
-I'm using a modified version of BEM syntax and atomic design to separate my stylesheets. By ordering them this way, properties cascade as intended, and I can be far more generic in my selector scope, avoiding ugly !importants, @extends, and the like.
+- I'm using a modified version of BEM syntax and atomic design to separate my stylesheets. It helps keep selector scope sane, and avoids ugly !importants, @extends, and the like.
 
 # Local Development
 Clone the repository.
