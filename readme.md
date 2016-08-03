@@ -17,8 +17,5 @@ Visit localhost:4000 in your browser.
 - add audio-reactive stills & video for mike's sounds
   - is it possible to embed processing without using processing.js or p5?
 - add short walkthrough about drupal helper classes
-- add post about drawing svgs from computed form values
-  - remove triangle from project page to be just an example on this post
 - do a project with d3
-- atom plugin for css colors in editor gutter
-- treehousebot jenkins job plugin
+- atom plugin for css colors in editor gutter 

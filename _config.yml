@@ -16,6 +16,8 @@ drupal_username: tjh
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-gist
 
 collections:
   projects:
