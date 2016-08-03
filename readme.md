@@ -22,7 +22,7 @@ See it live at: [www.tannerheffner.com](http://www.tannerheffner.com).
 - Any custom or project-specific javascript is loaded on an as-needed basis from assets/js. Project files are stored in subfolders of /assets/.
 - Standalone pages (about, blog list, connect, etc) have their own individual .md files in the project root.
 
-The sass folder is structured like so:
+The sass folder is structured like so: <br>
     _sass
     ├── _0-syntax-highlights.scss
     ├── _0-variables.scss
