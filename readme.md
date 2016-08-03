@@ -1,5 +1,5 @@
 # About
-This website is my personal sandbox and digital junk drawer. Every layout, stylesheet, and javascript function was written by me, compiled using the [Jekyll static-site generator](http://jekyllrb.com).
+This website is my personal sandbox and digital junk drawer. It was compiled using the [Jekyll static-site generator](http://jekyllrb.com).
 
 See it live at: [www.tannerheffner.com](http://www.tannerheffner.com).
 
