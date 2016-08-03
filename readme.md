@@ -23,14 +23,14 @@ See it live at: [www.tannerheffner.com](http://www.tannerheffner.com).
 - Standalone pages (about, blog list, connect, etc) have their own individual .md files in the project root.
 
 The sass folder is structured like so: <br>
-    _sass
-    ├── _0-syntax-highlights.scss
-    ├── _0-variables.scss
-    ├── _1-globals.scss
-    ├── _2-nav.scss
-    ├── _3-posts.scss
-    ├── _3-projects.scss
-    └── _5-slideshow.scss
+        .
+        ├── _0-syntax-highlights.scss
+        ├── _0-variables.scss
+        ├── _1-globals.scss
+        ├── _2-nav.scss
+        ├── _3-posts.scss
+        ├── _3-projects.scss
+        └── _5-slideshow.scss
 
 I'm using a modified version of BEM syntax and atomic design to separate my stylesheets. By ordering them this way, properties cascade as intended, and I can be far more generic in my selector scope, avoiding ugly !importants, @extends, and the like.
 
