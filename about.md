@@ -9,9 +9,7 @@ Hello, welcome, thanks for being here.
 
 Pardon the dust, this site is perpetually under construction. I'm unable to share client-work publicly in a timely manner, so this website is intended more as a personal sandbox. You can view under the hood of it's <a href="https://github.com/tjheffner/tjheffner.github.io" target="_blank">current mess here</a>.
 
-My name is Tanner and I live in Portland, Oregon. I graduated from the University of Oregon in 2014, where I received a B.S. in Journalism: Advertising, with a minor in Multimedia Art. After that, I attended a four-month vocational program for web development at a place called Epicodus. <br>
-
-Currently I'm employed as a developer at <a href="http://www.phase2technology.com" target="_blank">Phase2</a>, where I work mostly on the front-end of Drupal sites, but not always.
+My name is Tanner and I live in Portland, Oregon. Currently I'm employed as a developer at <a href="http://www.phase2technology.com" target="_blank">Phase2</a>, where I work mostly on the front-end of Drupal sites, but not always.
 
 When I'm not developing for work, sometimes I'm doing it for fun. Some other interests include: <br>
 <ul class="stuff">
