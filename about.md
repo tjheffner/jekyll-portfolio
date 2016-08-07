@@ -11,8 +11,6 @@ Pardon the dust, this website is intended more as a sandbox. Subsequently, it is
 
 My name is Tanner and I live in Portland, Oregon. Currently I'm employed as a developer at <a href="http://www.phase2technology.com" target="_blank" __>Phase2</a>, where I work mostly on the front-end of Drupal sites, but not always.
 
-I graduated from the University of Oregon in 2014, where I received a B.S. in Journalism: Advertising, with a minor in Multimedia Art. After that, I attended a four-month vocational program for web development at a place called Epicodus. <br>
-
 When I'm not developing for work, sometimes I'm doing it for fun. Some other interests include: <br>
 <ul class="stuff">
  <li>basketball, </li><br>
