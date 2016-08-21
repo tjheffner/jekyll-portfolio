@@ -19,11 +19,13 @@ markdown: kramdown
 gems:
   - jekyll-gist
 
+# Custom collections
 collections:
   projects:
     layout: project
     output: true
 
+# Jekyll's default collection is a 'post', I shove these into the /blog/ subpath.
 defaults:
   -
     scope:
