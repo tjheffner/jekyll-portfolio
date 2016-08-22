@@ -7,7 +7,7 @@ $base-line-height: 1.5;
 // Spacing helpers.
 $gap:              5px;
 $spacing:          15px;
-$spacing-double:     30px;
+$spacing-double:   30px;
 
 // Common colors.
 $text-color:       #111;
@@ -15,6 +15,9 @@ $background-color: #F8F8FF;
 
 $main-color:       #2a7ae2;
 $second-color:     #009900;
+
+$table-header:     #87CEFA;
+$table-row:        #808000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

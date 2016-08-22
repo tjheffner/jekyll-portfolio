@@ -23,6 +23,28 @@ code {
   font-family: Consolas, Monaco, Lucida Console,Courier New, serif;
 }
 
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  padding-bottom: 2.5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: $table-header;
+  border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lighten($table-row, 60%);
+}
+tr:nth-child(odd) {
+    background-color: lighten($table-row, 70%);
+}
+
 .page-content {
   margin: $spacing;
   max-width: $max-width;
