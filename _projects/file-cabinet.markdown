@@ -6,7 +6,8 @@ thumbnail: "/assets/thumbnails/smoker.png"
 custom_js: slideshow
 ---
 
-Over the course of several weekends, I recycled a metal file cabinet into a functional meat smoker + BBQ.
+Over the course of several weekends, I recycled a metal file cabinet into a functional meat smoker + BBQ. <br>
+I've detailed my process further [here](/building-a-file-cabinet-smoker/).
 
 _1 all-metal file cabinet, 3 metal grates, 3 cans of heat-resistant grill paint, 3 BBQ thermometers, 2 floor vents, wood._
 
