@@ -7,7 +7,7 @@ order: 3
 
 Hello, welcome, thanks for being here.
 
-Pardon the dust, this website is intended more as a sandbox. Subsequently, it is perpetually under construction. You can view under the hood of its <a href="https://github.com/tjheffner/tjheffner.github.io" target="_blank" __>current mess here</a>.
+Pardon the dust, this website is perpetually under construction. You can view the particulars of its <a href="https://github.com/tjheffner/tjheffner.github.io" target="_blank" __>current mess here</a>.
 
 My name is Tanner and I live in Portland, Oregon. Currently I'm employed as a developer at <a href="http://www.phase2technology.com" target="_blank" __>Phase2</a>, where I work mostly on the front-end of Drupal sites, but not always.
 
@@ -24,8 +24,7 @@ When I'm not developing for work, sometimes I'm doing it for fun. Some other int
  <li>happy hour, </li><br>
  <li>life, </li><br>
  <li>the universe, </li><br>
- <li>everything, </li><br>
- <li>etc. </li><br>
+ <li>everything. </li><br>
 </ul>
 
 If you would like to see work I've done professionally, are interested in collaborating, or just want to chat, please <a href='/connect/'>drop me a line.</a>
